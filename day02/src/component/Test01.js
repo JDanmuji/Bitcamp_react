@@ -1,4 +1,6 @@
 import React from 'react';
+import Test06 from './Test06';
+
 
 const Test01 = () => {
 
