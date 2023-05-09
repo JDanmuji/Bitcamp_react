@@ -2,8 +2,6 @@ import React from 'react';
 
 const Test03Modal = ({ onClose }) => {
 
- 
-    
 
     return (
         <>
