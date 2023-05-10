@@ -1,85 +1,47 @@
-.container {
-  margin: 20px auto;
-  width: 80%;
+.wrap {
+  width: 700px; 
+  margin: 30px auto; 
+  display: flex;
 }
-
-.input-table {
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th {
-  background-color: #eee;
-  border: 1px solid #ccc;
-  padding: 10px;
+.wrap .bigview {width: 600px;}
+.wrap .bigview .bigimg {
+  width: 600px; 
+  height: 400px; 
+  position: relative; 
+  margin-bottom: 20px;
   text-align: center;
 }
-
-td {
-  border: 1px solid #ccc;
-  padding: 10px;
+.wrap .bigview .bigimg img { height: 100%; }
+.wrap .bigview .bigimg h2 {
+  position: absolute; 
+  left: 30px; 
+  top: 30px; 
+  font-size: 30px; 
+  color:#fff;
 }
-
-input[type="text"] {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 5px;
+.wrap .bigview ul, 
+.wrap .bigview li {
+  list-style: none;
+  padding-left: 0px;
+}
+.wrap .bigview ul {
+  display: flex; 
+  flex-wrap: wrap;
+}
+.wrap .bigview ul li {
+  width: 110px; 
+  margin-right: 10px; 
   margin-bottom: 10px;
 }
-
-input[type="button"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
+.wrap .bigview ul li img {width:110px;}
+.wrap .text {
+  width: 400px; 
+  background: #efefef; 
+  box-sizing: border-box; 
+  padding: 30px;
 }
-
-input[type="button"]:hover {
-  background-color: #45a049;
-}
-
-
-hr {
-  border: 1px solid #ccc;
-}
-
-.print-list {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-}
-
-.label {
-  font-weight: bold;
-}
-
-li {
-  margin: 10px 0;
-}
-
-.button-container {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-.button:hover {
-  background-color: #45a049;
-}
+.wrap .text strong {
+  font-size: 30px; 
+  margin-bottom: 40px; 
+  display: block;}
+.wrap .text p {font-size: 18px;}
