@@ -6,18 +6,15 @@ import Test04 from './component/Test04';
 import Test05 from './component/Test05';
 
 const App = () => {
-  return (
-    <div>
-      {/* <Test01 />  */}
-      {/* <Test02 /> */}
-      {/* <Test03 /> */}
-      {/* <Test04 /> */}
-      <Test05 />
-
-    </div>
-  );
+    return (
+        <div>
+            {/* <Test01 /> */}
+            {/* <Test02 /> */}
+            {/* <Test03 /> */}
+            {/* <Test04 /> */}
+            <Test05 />
+        </div>
+    );
 };
 
 export default App;
-
-
